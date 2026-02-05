@@ -1,0 +1,114 @@
+/* =======================
+   Bakgrund och globala inställningar
+   ======================= */
+body {
+  font-family: Arial, sans-serif; 
+  background-color: #e0f7fa; 
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* =======================
+   Quiz-lista knappar
+   ======================= */
+#quiz-list button {
+  display: block; 
+  width: 100%; 
+  padding: 15px 20px;
+  margin: 10px 0;
+  font-size: 18px;
+  background-color: #4CAF50; 
+  color: white; 
+  border: none;
+  border-radius: 12px;
+  cursor: pointer; 
+  transition: transform 0.2s, background 0.3s; 
+}
+
+#quiz-list button:hover {
+  transform: scale(1.03);
+  background-color: #45a049;
+}
+
+/* =======================
+   Frågor och alternativ
+   ======================= */
+#question-container p {
+  font-size: 20px; 
+  font-weight: bold; 
+  margin-bottom: 15px; 
+}
+
+.option-item {
+  display: block;
+  background-color: #f0f0f0; 
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 12px; 
+  cursor: pointer; 
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Hover-effekt */
+.option-item:hover {
+  background-color: #e0e0e0;
+}
+
+/* När man har valt ett alternativ – korrekt/fel */
+.option-correct {
+  background-color: #4CAF50 !important; 
+  color: white;
+}
+
+.option-wrong {
+  background-color: #F44336 !important; 
+}
+
+.option-item input[type="radio"] {
+  margin-right: 10px; 
+}
+
+/* =======================
+   Navigeringsknappar
+   ======================= */
+#next-btn, #submit-btn, #restart-btn, #back-btn {
+  padding: 12px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#next-btn { background-color: #2196F3; color: white; }
+#next-btn:hover { background-color: #1976D2; }
+
+#submit-btn { background-color: #FF9800; color: white; }
+#submit-btn:hover { background-color: #F57C00; }
+
+#restart-btn, #back-btn { background-color: #9E9E9E; color: white; }
+#restart-btn:hover, #back-btn:hover { background-color: #616161; }
+
+/* =======================
+   Progress och dold klass
+   ======================= */
+#quiz-progress {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #555; 
+}
+
+.hidden {
+  display: none; 
+}

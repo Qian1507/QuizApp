@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <main>
+        <section id="quiz-list-section">
+            <h1>Välj ett quiz</h1>
+            <p>Välj någon av quizzerna nedan för att börja</p>
+            <div id="quiz-list">
+            </div>
+        </section>
+
+
+        <section id="quiz-section" class="hidden">
+            <h1 id="quiz-title"></h1>
+            <p id="quiz-progress"></p>
+            <div id="question-container"></div>
+            <button id="next-btn">Nästa fråga</button>
+            <button id="submit-btn" class="hidden">Visa resultat</button>
+            <button id="back-btn">Tillbaka till Quiz-Listan</button>
+        </section>
+
+
+
+        <section id="result-section" class="hidden">
+            <h1>Resultat</h1>
+            <p id="result-text"></p>
+            <button id="restart-btn">Välj ett annat quiz</button>
+        </section>
+    </main>
+
+</body>
+</html>

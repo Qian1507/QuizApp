@@ -1,0 +1,206 @@
+{
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "General Knowledge Quiz 1",
+      "questions": [
+        {
+          "id": 1,
+          "text": "In 1768, Captain James Cook set out to explore which ocean?",
+          "options": [
+            { "text": "Pacific Ocean",  "isCorrect": true },
+            { "text": "Atlantic Ocean", "isCorrect": false },
+            { "text": "Indian Ocean",   "isCorrect": false },
+            { "text": "Arctic Ocean",   "isCorrect": false }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "What is actually electricity?",
+          "options": [
+            { "text": "A flow of water",    "isCorrect": false },
+            { "text": "A flow of air",      "isCorrect": false },
+            { "text": "A flow of electrons","isCorrect": true },
+            { "text": "A flow of atoms",    "isCorrect": false }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "Which of the following is not an international organisation?",
+          "options": [
+            { "text": "FIFA",  "isCorrect": false },
+            { "text": "NATO",  "isCorrect": false },
+            { "text": "ASEAN", "isCorrect": false },
+            { "text": "FBI",   "isCorrect": true }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "Which of the following disorders is the fear of being alone?",
+          "options": [
+            { "text": "Agoraphobia",   "isCorrect": true },
+            { "text": "Aerophobia",    "isCorrect": false },
+            { "text": "Acrophobia",    "isCorrect": false },
+            { "text": "Arachnophobia", "isCorrect": false }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "Which of the following is a song by the German heavy metal band “Scorpions”?",
+          "options": [
+            { "text": "Stairway to Heaven",   "isCorrect": false },
+            { "text": "Wind of Change",       "isCorrect": true },
+            { "text": "Don’t Stop Me Now",    "isCorrect": false },
+            { "text": "Hey Jude",             "isCorrect": false }
+          ]
+        },
+        {
+          "id": 6,
+          "text": "What is the speed of sound?",
+          "options": [
+            { "text": "120 km/h",   "isCorrect": false },
+            { "text": "1,200 km/h", "isCorrect": true },
+            { "text": "400 km/h",   "isCorrect": false },
+            { "text": "700 km/h",   "isCorrect": false }
+          ]
+        },
+        {
+          "id": 7,
+          "text": "Which is the easiest way to tell the age of many trees?",
+          "options": [
+            { "text": "To measure the width of the tree",  "isCorrect": false },
+            { "text": "To count the rings on the trunk",   "isCorrect": true },
+            { "text": "To count the number of leaves",     "isCorrect": false },
+            { "text": "To measure the height of the tree", "isCorrect": false }
+          ]
+        },
+        {
+          "id": 8,
+          "text": "What do we call a newly hatched butterfly?",
+          "options": [
+            { "text": "A moth",        "isCorrect": false },
+            { "text": "A butter",      "isCorrect": false },
+            { "text": "A caterpillar", "isCorrect": true },
+            { "text": "A chrysalis",   "isCorrect": false }
+          ]
+        },
+        {
+          "id": 9,
+          "text": "In total, how many novels were written by the Bronte sisters?",
+          "options": [
+            { "text": "4", "isCorrect": false },
+            { "text": "5", "isCorrect": false },
+            { "text": "6", "isCorrect": false },
+            { "text": "7", "isCorrect": true }
+          ]
+        },
+        {
+          "id": 10,
+          "text": "Which did Viking people use as money?",
+          "options": [
+            { "text": "Rune stones", "isCorrect": false },
+            { "text": "Jewellery",   "isCorrect": true },
+            { "text": "Seal skins",  "isCorrect": false },
+            { "text": "Wool",        "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "General Knowledge Quiz 2",
+      "questions": [
+        {
+          "id": 11,
+          "text": "What was the first country to use tanks in combat during World War I?",
+          "options": [
+            { "text": "France",  "isCorrect": false },
+            { "text": "Japan",   "isCorrect": false },
+            { "text": "Britain", "isCorrect": true },
+            { "text": "Germany", "isCorrect": false }
+          ]
+        },
+        {
+          "id": 12,
+          "text": "What is the main component of the sun?",
+          "options": [
+            { "text": "Liquid lava", "isCorrect": false },
+            { "text": "Gas",         "isCorrect": true },
+            { "text": "Molten iron", "isCorrect": false },
+            { "text": "Rock",        "isCorrect": false }
+          ]
+        },
+        {
+          "id": 13,
+          "text": "Goulash is a type of beef soup in which country?",
+          "options": [
+            { "text": "Hungary",        "isCorrect": true },
+            { "text": "Czech Republic", "isCorrect": false },
+            { "text": "Slovakia",       "isCorrect": false },
+            { "text": "Ireland",        "isCorrect": false }
+          ]
+        },
+        {
+          "id": 14,
+          "text": "Which two months are named after Emperors of the Roman Empire?",
+          "options": [
+            { "text": "January and February", "isCorrect": false },
+            { "text": "March and April",      "isCorrect": false },
+            { "text": "May and June",         "isCorrect": false },
+            { "text": "July and August",      "isCorrect": true }
+          ]
+        },
+        {
+          "id": 15,
+          "text": "Which of the following animals can run the fastest?",
+          "options": [
+            { "text": "Cheetah", "isCorrect": true },
+            { "text": "Leopard", "isCorrect": false },
+            { "text": "Tiger",   "isCorrect": false },
+            { "text": "Lion",    "isCorrect": false }
+          ]
+        },
+        {
+          "id": 16,
+          "text": "Where did the powers of Spiderman come from?",
+          "options": [
+            { "text": "He was born with them",                  "isCorrect": false },
+            { "text": "He was bitten by a radioactive spider", "isCorrect": true },
+            { "text": "He went through a scientific experiment","isCorrect": false },
+            { "text": "He woke up with them after a dream",    "isCorrect": false }
+          ]
+        },
+        {
+          "id": 17,
+          "text": "What is the most points that a player can score with a single throw in darts?",
+          "options": [
+            { "text": "20", "isCorrect": false },
+            { "text": "40", "isCorrect": false },
+            { "text": "60", "isCorrect": true },
+            { "text": "80", "isCorrect": false }
+          ]
+        },
+        {
+          "id": 18,
+          "text": "In the United States, football is called soccer. So what is American football called in the United Kingdom?",
+          "options": [
+            { "text": "Rugby",           "isCorrect": false },
+            { "text": "American football","isCorrect": true },
+            { "text": "Handball",        "isCorrect": false },
+            { "text": "Combball",        "isCorrect": false }
+          ]
+        },
+        {
+          "id": 19,
+          "text": "Which of the following actors was the first one to play James Bond?",
+          "options": [
+            { "text": "Timothy Dalton", "isCorrect": false },
+            { "text": "Roger Moore",    "isCorrect": false },
+            { "text": "Sean Connery",   "isCorrect": true },
+            { "text": "George Lazenby", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  ]
+}
